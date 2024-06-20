@@ -17,7 +17,7 @@
     var_dump($namaSiswa);
     echo "<br>";
     print_r($namaSiswa);
-    echo $namaSiswa; //echo gak bisa meng output banyak data, bisa nya hanya 1 data
+    echo $namaSiswa; //echo gak bisa meng output banyak data, bisa nya hanya 1 data , dan akan meng kases nama variabelnya
     echo $namaSiswa[1] // jika meng akses 1 nilai bisa
 
 ?>

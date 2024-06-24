@@ -1,0 +1,6 @@
+// variable super global adalah varibel yang di sudah ada di php
+// dan tidak perlu menerapkan membuat  $variable 
+// karena sudah ada varibelnya ,untuk di  mengakses 
+
+
+///NB:VAaribel super global itu mirip seperto array assosiative

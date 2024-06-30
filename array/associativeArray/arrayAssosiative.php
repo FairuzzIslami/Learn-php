@@ -12,7 +12,7 @@
         'jurusam' => 'rpl',
         'sekolah' => 'barkab'
     ];
-    var_dump($siswa2['kelas']);
+    var_dump($siswa2['kelas']); // iniii
 
 
     //2 siswa
@@ -47,7 +47,7 @@
     <!-- array yang tunggal -->
     <ul>
         <?php foreach($siswa2 as $student){?>
-        <li><?php echo $student ?></li>
+        <li><?php echo $student['kelas'] ?></li>
         <?php } ?>
     </ul>
     

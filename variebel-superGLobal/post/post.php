@@ -9,7 +9,7 @@
     <?php if (!isset($_POST['submit'])) { ?>
         <h1>Selamat datang <?php echo $_POST['nama']; ?></h1>
     <?php } ?>
-    <form action="" method="post">
+    <form action="./dataPost.php" method="post">
         <h3>Massukan nama</h3>
         <input type="text" name="nama" id="">
         <h3>Massukan password</h3>

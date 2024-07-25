@@ -1,31 +1,9 @@
 <?php
-    //koneksi php ke database
-    $connect_db = mysqli_connect('localhost','root','','project_db');
+    //menghubungkan index dan database 
+    require 'database.php';
+
     
-
-    // mengambil/query data dari table 'datasiswa'
-    // NB: -JIKA INGIN MENGECEK TERSAMBUNG ATAU TIDAK 
-    //       GUNAKAN VAR_DUMP() / if()
-    $result = mysqli_query($connect_db,'SELECT * FROM datasiswa');
-    
-
-    //mengambil(fect) isi data datasiswa dari variabel $result
-    // 4 cara
-    // mysqli_fetch_row($result[3]);  #key nya angka
-    //mysqli_fetch_row($result['id']); #make nama tabel 
-    //mysqli_fetch_array($result[all]); #bisa angka bisa nama dan datanya doble  x
-    //
-
-
-    // for( $i = 0; $i <= 10; $i++ ){
-    //     $result = mysqli_query($connect_db,'SELECT * FROM datasiswa');
-    //     $fectData = mysqli_fetch_assoc($result);
-    //     var_dump($fectData['nama']);
-    // };
-
-
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>

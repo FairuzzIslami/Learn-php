@@ -1,7 +1,7 @@
 <?php
     //menghubungkan index dan database 
     require 'database.php';
-
+    $siswa = mysqli_query($connect_db,'SELECT * FROM datasiswa');
     
 ?>
 <!DOCTYPE html>
@@ -23,7 +23,7 @@
             <th>JURUSAN</th>
         </tr>
         <?php $i = 1;?>
-        <?php while($row = mysqli_fetch_assoc($result)){?>
+        <?php foreach($siswa as $row){?>
         <tr>
             <td><?php echo $i?></td>
             <td><a href="">rename</a> / <a href="">delete</a></td>

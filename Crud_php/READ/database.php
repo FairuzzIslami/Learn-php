@@ -22,6 +22,25 @@
 
 
 
+    function add($data){
+        global $connect_db;
+
+        $nis = $_POST['nis'];
+        $nama = $_POST['nama'];
+        $kelas = $_POST['kelas'];
+        $jurusan = $_POST['jurusan'];
+
+        //mengambil/query insert data
+        $query = "INSERT INTO datasiswa VALUE
+                ('','$nis','$nama','$kelas','$jurusan')";
+                
+        mysqli_query($connect_db,$query);
+
+        return mysqli_affected_rows($connect_db);
+    }
+
+
+
 
     // mengambil/query data dari table 'datasiswa'
     // NB: -JIKA INGIN MENGECEK TERSAMBUNG ATAU TIDAK 

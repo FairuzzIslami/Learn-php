@@ -15,7 +15,7 @@
             ";
         }else{
             echo"
-            <script> alert('data blm bisa di kirim') 
+            <script> alert('data blm bisa di kirim bang') 
             document.location.href = 'index2.php'
             </script>
             ";

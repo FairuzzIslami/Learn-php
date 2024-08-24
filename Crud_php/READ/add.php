@@ -6,7 +6,7 @@
     // mengecek tombol sumbit sudah terkoneksi atau tidak
     if(!isset($_POST['submit'])){
 
-        // //cek data berhasil atau tidak
+        // //cek data berhasil atau tidaks
         if(add($_POST > 0)){
             echo "
             <script> alert('data berhasil di kirim') 

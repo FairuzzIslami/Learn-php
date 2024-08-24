@@ -1,5 +1,5 @@
 <?php
-    //koneksi php ke database
+    //koneksi php ke databases
     $connect_db = mysqli_connect('localhost','root','','project_db');
     
 
